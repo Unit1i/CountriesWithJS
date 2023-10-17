@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+
+    background-color: rgb(154, 60, 255);
+}
+.wrapper{
+    background-color: rgb(188, 132, 251) ;
+    width: 1000px;
+    height: 600px;
+    border: 2px solid purple ;
+    margin: 150px auto;
+    border-radius: 50%;
+    position: relative;
+}
+
+input{
+position: absolute;
+width: 200px;
+background-color: rgb(255, 185, 255);
+color: rgb(0, 0, 0);
+font-weight: 900;
+text-align: center;
+border-radius: 50%;
+}
+
+::placeholder{
+    color: black;
+}
+
+#left1{
+    padding: 50px;
+    top: 20px;
+    right: 42%;
+   
+}
+
+#left2{
+padding: 45px;
+top: 50px;
+right: 63%;
+}
+#left3{
+padding: 45px;
+top: 150px   ;
+right: 76%;
+}
+#left4{  
+    padding: 45px;
+    top: 270px   ;
+    right: 78%;
+    }
+#left5{
+     padding: 45px;
+     top: 390px   ;
+     right: 71%;
+}
+#left6{
+    padding: 50px;
+    top:450px;
+    right: 53%;
+}
+#right1{
+    padding: 50px;
+    top:459px;
+    left: 48%;
+}
+#right2{
+    padding: 50px;
+    top:400px;
+    left: 67%;
+}
+#right3{
+    padding: 50px;
+    top:285px;
+    left: 78%;
+}
+#right4{
+    padding: 50px;
+    top:155px;
+    left: 76%;
+}
+#right5{
+    padding: 50px;
+    top:47px;
+    left: 60%;
+}
+#button{
+    position: absolute;
+    padding: 70px;
+    border-radius: 50%;
+    top:210px;
+    left: 40%;
+    background-color: rgb(255, 185, 255);
+}
+#button:hover{
+    background-color: rgb(9, 255, 0);
+    
+}
+#score{
+
+    font-size: 20px;
+    position: absolute;
+    top: 282px;
+    right: 365px;
+}
+#answer{
+    font-size: 20px;
+    position: absolute;
+    top: 310px;
+    right: 334px;
+}
